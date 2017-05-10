@@ -1,0 +1,6 @@
+[submodule "nfd/Formats"]
+	path = nfd/Formats
+	url = https://github.com/horsicq/Formats
+[submodule "nfd/StaticScan"]
+	path = nfd/StaticScan
+	url = https://github.com/horsicq/StaticScan
