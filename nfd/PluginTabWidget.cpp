@@ -1,5 +1,5 @@
 // Copyright (c) 2017 hors<horsicq@gmail.com>
-// 
+//
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
 // in the Software without restriction, including without limitation the rights
@@ -17,7 +17,7 @@
 // LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
-// 
+//
 #include "PluginTabWidget.h"
 
 
@@ -30,7 +30,7 @@ PluginTabWidget::PluginTabWidget(QWidget* parent) :
     layout->addWidget(mPluginMainWindow);
     layout->setMargin(0);
     setLayout(layout);
-//    setWindowTitle(mPluginMainWindow->windowTitle());
+    //    setWindowTitle(mPluginMainWindow->windowTitle());
     setWindowTitle(tr("NFD"));
     setWindowIcon(mPluginMainWindow->windowIcon());
 }

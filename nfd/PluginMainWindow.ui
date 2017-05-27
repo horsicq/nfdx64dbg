@@ -35,6 +35,16 @@
        </widget>
       </item>
       <item>
+       <widget class="QCheckBox" name="checkBoxScanOverlay">
+        <property name="text">
+         <string>Scan overlay</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
        <spacer name="horizontalSpacer">
         <property name="orientation">
          <enum>Qt::Horizontal</enum>
@@ -78,7 +88,7 @@
         <number>1</number>
        </property>
        <item>
-        <widget class="QTreeWidget" name="treeWidgetResult">
+        <widget class="QTreeView" name="treeViewResult">
          <property name="styleSheet">
           <string notr="true">border-bottom: 1px solid black;</string>
          </property>
@@ -94,22 +104,9 @@
          <property name="selectionBehavior">
           <enum>QAbstractItemView::SelectRows</enum>
          </property>
-         <property name="columnCount">
-          <number>2</number>
+         <property name="headerHidden">
+          <bool>true</bool>
          </property>
-         <attribute name="headerVisible">
-          <bool>false</bool>
-         </attribute>
-         <column>
-          <property name="text">
-           <string notr="true">1</string>
-          </property>
-         </column>
-         <column>
-          <property name="text">
-           <string notr="true">2</string>
-          </property>
-         </column>
         </widget>
        </item>
       </layout>

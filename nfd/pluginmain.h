@@ -1,5 +1,5 @@
 // Copyright (c) 2017 hors<horsicq@gmail.com>
-// 
+//
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
 // in the Software without restriction, including without limitation the rights
@@ -17,7 +17,7 @@
 // LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
-// 
+//
 #ifndef _PLUGINMAIN_H
 #define _PLUGINMAIN_H
 
@@ -28,13 +28,13 @@
 
 namespace Plugin
 {
-    extern int handle;
-    extern HWND hwndDlg;
-    extern int hMenu;
-    extern int hMenuDisasm;
-    extern int hMenuDump;
-    extern int hMenuStack;
-    extern QString sCurrentFileName;
+extern int handle;
+extern HWND hwndDlg;
+extern int hMenu;
+extern int hMenuDisasm;
+extern int hMenuDump;
+extern int hMenuStack;
+extern QString sCurrentFileName;
 } //Plugin
 
 #endif //_PLUGINMAIN_H
