@@ -48,7 +48,7 @@ void PluginMainWindow::on_pushButtonScan_clicked()
         ds.setData(sFileName,&options,&listResult);
         ds.exec();
 
-        ui->treeViewResult->setModel(DialogStaticScan::getModel(&listResult));
+        ui->treeViewResult->setModel(new StaticScanItemModel(&listResult));
         ui->treeViewResult->expandAll();
     }
 }
