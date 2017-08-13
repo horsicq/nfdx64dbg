@@ -1,13 +1,3 @@
-#-------------------------------------------------
-#
-# Project created by QtCreator 2015-07-07T21:06:57
-#
-#-------------------------------------------------
-
-##
-## Pre-defined global variables
-##
-
 CONFIG(debug, debug|release) {
     DIR_SUFFIX = d
 } else {
