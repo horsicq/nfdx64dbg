@@ -39,7 +39,7 @@ void PluginMainWindow::on_pushButtonScan_clicked()
 
     if(sFileName!="")
     {
-        QList<SpecAbstract::SCAN_STRUCT> listResult;
+        QList<SpecAbstract::SCAN_RESULT> listResult;
 
         SpecAbstract::SCAN_OPTIONS options= {0};
         options.bScanOverlay=ui->checkBoxScanOverlay->isChecked();
