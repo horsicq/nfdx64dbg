@@ -39,17 +39,17 @@ void PluginMainWindow::on_pushButtonScan_clicked()
 
     if(sFileName!="")
     {
-        QList<SpecAbstract::SCAN_RESULT> listResult;
+        SpecAbstract::SCAN_RESULT scanResult;
 
         SpecAbstract::SCAN_OPTIONS options= {0};
         options.bScanOverlay=ui->checkBoxScanOverlay->isChecked();
         options.bDeepScan=ui->checkBoxDeepScan->isChecked();
 
         DialogStaticScan ds(this);
-        ds.setData(sFileName,&options,&listResult);
+        ds.setData(sFileName,&options,&scanResult);
         ds.exec();
 
-        ui->treeViewResult->setModel(new StaticScanItemModel(&listResult));
+        ui->treeViewResult->setModel(new StaticScanItemModel(&scanResult.listRecords));
         ui->treeViewResult->expandAll();
     }
 }
