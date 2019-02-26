@@ -22,7 +22,7 @@
 
 
 #define plugin_name "Nauz File Detector"
-#define plugin_version 1
+#define plugin_version 5
 
 int Plugin::handle;
 HWND Plugin::hwndDlg;
