@@ -14,7 +14,7 @@
    <string>QtPlugin</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="resource.qrc">
+   <iconset>
     <normaloff>:/icons/images/icon.png</normaloff>:/icons/images/icon.png</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">

@@ -137,7 +137,7 @@ FORMS    += \
 RESOURCES += \
     resource.qrc
 
-!contains(XCONFIG, dialogstaticscan) {
-    XCONFIG += dialogstaticscan
-    include(StaticScan/dialogstaticscan.pri)
+!contains(XCONFIG, formresult) {
+    XCONFIG += formresult
+    include(../../../_mylibs/StaticScan/formresult.pri)
 }
