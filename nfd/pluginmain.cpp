@@ -20,9 +20,6 @@
 //
 #include "pluginmain.h"
 
-#define plugin_name "Nauz File Detector"
-#define plugin_version 7 // 0.07
-
 int Plugin::handle;
 HWND Plugin::hwndDlg;
 int Plugin::hMenu;

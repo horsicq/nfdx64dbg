@@ -19,6 +19,7 @@
 // SOFTWARE.
 //
 #include "dialoginfo.h"
+#include "pluginmain.h"
 #include "ui_dialoginfo.h"
 #include "staticscan.h"
 
@@ -28,7 +29,8 @@ DialogInfo::DialogInfo(QWidget *parent) :
 {
     ui->setupUi(this);
 
-    ui->labelVersion->setText(tr("Engine version: %1").arg(StaticScan::getEngineVersion()));
+    ui->labelPluginVersion->setText(tr("Plugin version: %1").arg(plugin_version_str));
+    ui->labelEngineVersion->setText(tr("Engine version: %1").arg(StaticScan::getEngineVersion()));
 }
 
 DialogInfo::~DialogInfo()

@@ -26,6 +26,10 @@
 #include "QtPlugin.h"
 #include <QString>
 
+#define plugin_name "Nauz File Detector"
+#define plugin_version 7 // 0.07
+#define plugin_version_str "0.07" // 0.07
+
 namespace Plugin
 {
 extern int handle;
