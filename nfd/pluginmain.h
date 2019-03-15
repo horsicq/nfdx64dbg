@@ -25,10 +25,7 @@
 #include "pluginsdk\_plugins.h"
 #include "QtPlugin.h"
 #include <QString>
-
-#define plugin_name "Nauz File Detector"
-#define plugin_version 7 // 0.07
-#define plugin_version_str "0.07" // 0.07
+#include "dialoginfo.h"
 
 namespace Plugin
 {
@@ -39,6 +36,12 @@ extern int hMenuDisasm;
 extern int hMenuDump;
 extern int hMenuStack;
 extern QString sCurrentFileName;
+extern FormResult *pFormResult;
+
+enum PLUGIN_MENU
+{
+    PLUGIN_MENU_ABOUT
+};
 } //Plugin
 
 #endif //_PLUGINMAIN_H

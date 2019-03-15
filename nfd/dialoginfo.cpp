@@ -19,9 +19,7 @@
 // SOFTWARE.
 //
 #include "dialoginfo.h"
-#include "pluginmain.h"
 #include "ui_dialoginfo.h"
-#include "staticscan.h"
 
 DialogInfo::DialogInfo(QWidget *parent) :
     QDialog(parent),

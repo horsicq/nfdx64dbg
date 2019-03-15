@@ -25,6 +25,7 @@
 
 #include "dialogstaticscan.h"
 #include "dialoginfo.h"
+#include "pluginmain.h"
 
 namespace Ui
 {
@@ -41,7 +42,6 @@ public:
 
 private slots:
     void on_pushButtonScan_clicked();
-    void on_pushButtonInfo_clicked();
 
 private:
     Ui::PluginMainWindow* ui;

@@ -22,6 +22,8 @@
 #define DIALOGINFO_H
 
 #include <QDialog>
+#include "QtPlugin.h"
+#include "formresult.h"
 
 namespace Ui
 {

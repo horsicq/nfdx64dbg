@@ -27,6 +27,7 @@ int Plugin::hMenuDisasm;
 int Plugin::hMenuDump;
 int Plugin::hMenuStack;
 QString Plugin::sCurrentFileName;
+FormResult *Plugin::pFormResult=nullptr;
 
 extern "C" __declspec(dllexport) bool pluginit(PLUG_INITSTRUCT* initStruct)
 {
@@ -47,6 +48,8 @@ extern "C" __declspec(dllexport) void plugsetup(PLUG_SETUPSTRUCT* setupStruct)
     Plugin::hMenuDump = setupStruct->hMenuDump;
     Plugin::hMenuStack = setupStruct->hMenuStack;
     GuiExecuteOnGuiThread(QtPlugin::Setup);
+
+    _plugin_menuaddentry(Plugin::hMenu, 0, "&About...");
 }
 
 extern "C" __declspec(dllexport) bool plugstop()
@@ -59,3 +62,22 @@ extern "C" __declspec(dllexport) void CBINITDEBUG(CBTYPE cbType, PLUG_CB_INITDEB
 {
     Plugin::sCurrentFileName=info->szFileName;
 }
+
+extern "C" __declspec(dllexport) void CBMENUENTRY(CBTYPE cbType, PLUG_CB_MENUENTRY* info)
+{
+    switch(info->hEntry)
+    {
+    case Plugin::PLUGIN_MENU_ABOUT:
+        if(Plugin::pFormResult)
+        {
+            DialogInfo di(Plugin::pFormResult);
+
+            di.exec();
+        }
+        break;
+    default:
+        break;
+    }
+}
+
+
