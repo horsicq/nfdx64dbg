@@ -4,3 +4,6 @@
 [submodule "nfd/StaticScan"]
 	path = nfd/StaticScan
 	url = https://github.com/horsicq/StaticScan
+[submodule "nfd/XArchive"]
+	path = nfd/XArchive
+	url = https://github.com/horsicq/XArchive.git
