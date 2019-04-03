@@ -49,6 +49,6 @@ void PluginMainWindow::on_pushButtonScan_clicked()
         ds.setData(sFileName,&options,&scanResult);
         ds.exec();
 
-        ui->widgetResult->setData(&scanResult,"");
+        ui->widgetResult->setData(scanResult,"");
     }
 }
