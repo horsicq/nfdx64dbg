@@ -36,8 +36,8 @@ void QtPlugin::Init()
 
 void QtPlugin::Setup()
 {
-    QWidget* parent = getParent();
-    pluginTabWidget = new PluginTabWidget(parent);
+    QWidget* parent=getParent();
+    pluginTabWidget= new PluginTabWidget(parent);
     GuiAddQWidgetTab(pluginTabWidget);
 }
 
