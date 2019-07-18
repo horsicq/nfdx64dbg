@@ -32,7 +32,7 @@ PluginTabWidget::PluginTabWidget(QWidget* parent) :
     setLayout(layout);
     //    setWindowTitle(mPluginMainWindow->windowTitle());
     setWindowTitle(tr("NFD"));
-    setWindowIcon(QIcon(":/icons/images/nfdicon.png"));
+    setWindowIcon(QIcon(":/icons_nfd/images/nfdicon.png"));
 }
 
 void PluginTabWidget::closeEvent(QCloseEvent* event)

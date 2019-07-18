@@ -1,5 +1,5 @@
 <RCC>
-    <qresource prefix="/icons">
+    <qresource prefix="/icons_nfd">
         <file>images/nfdicon.png</file>
         <file>images/nfdmain.png</file>
     </qresource>
