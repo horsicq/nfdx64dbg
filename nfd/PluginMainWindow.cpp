@@ -42,7 +42,7 @@ void PluginMainWindow::on_pushButtonScan_clicked()
         SpecAbstract::SCAN_RESULT scanResult;
 
         SpecAbstract::SCAN_OPTIONS options= {0};
-        options.bScanOverlay=ui->checkBoxScanOverlay->isChecked();
+        options.bRecursive=ui->checkBoxRecursive->isChecked();
         options.bDeepScan=ui->checkBoxDeepScan->isChecked();
 
         DialogStaticScan ds(this);
