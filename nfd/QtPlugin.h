@@ -25,8 +25,8 @@
 //#include "PluginMainWindow.h"
 
 #define plugin_name "Nauz File Detector"
-#define plugin_version 9 // 0.09
-#define plugin_version_str "0.09" // 0.09
+#define plugin_version 10 // 0.10
+#define plugin_version_str "0.10" // 0.10
 
 namespace QtPlugin
 {
