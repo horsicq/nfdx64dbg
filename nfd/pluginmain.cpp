@@ -81,5 +81,3 @@ extern "C" __declspec(dllexport) void CBMENUENTRY(CBTYPE cbType, PLUG_CB_MENUENT
         break;
     }
 }
-
-
