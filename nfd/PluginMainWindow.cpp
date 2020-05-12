@@ -42,8 +42,9 @@ void PluginMainWindow::on_pushButtonScan_clicked()
         SpecAbstract::SCAN_RESULT scanResult;
 
         SpecAbstract::SCAN_OPTIONS options= {0};
-        options.bRecursive=ui->checkBoxRecursive->isChecked();
+        options.bRecursiveScan=ui->checkBoxRecursiveScan->isChecked();
         options.bDeepScan=ui->checkBoxDeepScan->isChecked();
+        options.bHeuristicScan=ui->checkBoxHeuristicScan->isChecked();
 
         DialogStaticScan ds(this);
         ds.setData(sFileName,&options,&scanResult);
