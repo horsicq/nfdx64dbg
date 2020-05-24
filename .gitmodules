@@ -10,9 +10,3 @@
 [submodule "nfd/SpecAbstract"]
 	path = nfd/SpecAbstract
 	url = https://github.com/horsicq/SpecAbstract.git
-[submodule "StaticScan"]
-	path = StaticScan
-	url = https://github.com/horsicq/StaticScan.git
-[submodule "SpecAbstract"]
-	path = SpecAbstract
-	url = https://github.com/horsicq/SpecAbstract.git
