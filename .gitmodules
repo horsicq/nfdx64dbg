@@ -10,3 +10,6 @@
 [submodule "nfd/SpecAbstract"]
 	path = nfd/SpecAbstract
 	url = https://github.com/horsicq/SpecAbstract.git
+[submodule "XDEX"]
+	path = XDEX
+	url = https://github.com/horsicq/XDEX.git
