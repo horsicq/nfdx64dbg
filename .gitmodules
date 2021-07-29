@@ -13,9 +13,6 @@
 [submodule "nfd/XDEX"]
 	path = nfd/XDEX
 	url = https://github.com/horsicq/XDEX.git
-[submodule "XShortcuts"]
-	path = XShortcuts
-	url = https://github.com/horsicq/XShortcuts.git
 [submodule "nfd/XOptions"]
 	path = nfd/XOptions
 	url = https://github.com/horsicq/XOptions
