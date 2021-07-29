@@ -16,3 +16,12 @@
 [submodule "XShortcuts"]
 	path = XShortcuts
 	url = https://github.com/horsicq/XShortcuts.git
+[submodule "nfd/XOptions"]
+	path = nfd/XOptions
+	url = https://github.com/horsicq/XOptions
+[submodule "nfd/XShortcuts"]
+	path = nfd/XShortcuts
+	url = https://github.com/horsicq/XShortcuts
+[submodule "nfd/build_tools"]
+	path = nfd/build_tools
+	url = https://github.com/horsicq/build_tools
