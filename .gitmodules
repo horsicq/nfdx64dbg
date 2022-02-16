@@ -22,3 +22,6 @@
 [submodule "nfd/build_tools"]
 	path = nfd/build_tools
 	url = https://github.com/horsicq/build_tools
+[submodule "nfd/XPDF"]
+	path = nfd/XPDF
+	url = https://github.com/horsicq/XPDF
