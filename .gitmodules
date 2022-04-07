@@ -25,3 +25,6 @@
 [submodule "nfd/XPDF"]
 	path = nfd/XPDF
 	url = https://github.com/horsicq/XPDF
+[submodule "nfd/XInfoDB"]
+	path = nfd/XInfoDB
+	url = https://github.com/horsicq/XInfoDB
