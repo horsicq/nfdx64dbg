@@ -28,3 +28,6 @@
 [submodule "nfd/XInfoDB"]
 	path = nfd/XInfoDB
 	url = https://github.com/horsicq/XInfoDB
+[submodule "nfd/XSymbolsWidget"]
+	path = nfd/XSymbolsWidget
+	url = https://github.com/horsicq/XSymbolsWidget
