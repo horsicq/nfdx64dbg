@@ -31,3 +31,6 @@
 [submodule "nfd/XSymbolsWidget"]
 	path = nfd/XSymbolsWidget
 	url = https://github.com/horsicq/XSymbolsWidget
+[submodule "nfd/XOnlineTools"]
+	path = nfd/XOnlineTools
+	url = https://github.com/horsicq/XOnlineTools
