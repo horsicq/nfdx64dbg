@@ -34,3 +34,6 @@
 [submodule "nfd/XOnlineTools"]
 	path = nfd/XOnlineTools
 	url = https://github.com/horsicq/XOnlineTools
+[submodule "nfd/XAboutWidget"]
+	path = nfd/XAboutWidget
+	url = https://github.com/horsicq/XAboutWidget
