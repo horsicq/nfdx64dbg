@@ -37,6 +37,3 @@
 [submodule "nfd/XAboutWidget"]
 	path = nfd/XAboutWidget
 	url = https://github.com/horsicq/XAboutWidget
-[submodule "nfd/XExtractorWidget"]
-	path = nfd/XExtractorWidget
-	url = https://github.com/horsicq/XExtractorWidget
