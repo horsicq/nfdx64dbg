@@ -46,7 +46,7 @@ void PluginMainWindow::on_pushButtonScan_clicked()
         options.bDeepScan=ui->checkBoxDeepScan->isChecked();
         options.bHeuristicScan=ui->checkBoxHeuristicScan->isChecked();
 
-        DialogStaticScan ds(this);
+        DialogStaticScanProcess ds(this);
         ds.setData(sFileName,&options,&scanResult);
         ds.exec();
 
