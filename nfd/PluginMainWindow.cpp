@@ -39,17 +39,17 @@ void PluginMainWindow::on_pushButtonScan_clicked()
 
     if(sFileName!="")
     {
-        SpecAbstract::SCAN_RESULT scanResult;
+        XScanEngine::SCAN_RESULT scanResult;
 
-        SpecAbstract::SCAN_OPTIONS options= {0};
-        options.bRecursiveScan=ui->checkBoxRecursiveScan->isChecked();
-        options.bDeepScan=ui->checkBoxDeepScan->isChecked();
-        options.bHeuristicScan=ui->checkBoxHeuristicScan->isChecked();
+        XScanEngine::SCAN_OPTIONS scanOptions= {0};
+        scanOptions.bIsRecursiveScan=ui->checkBoxRecursiveScan->isChecked();
+        scanOptions.bIsDeepScan=ui->checkBoxDeepScan->isChecked();
+        scanOptions.bIsHeuristicScan=ui->checkBoxHeuristicScan->isChecked();
 
         DialogStaticScanProcess ds(this);
-        ds.setData(sFileName,&options,&scanResult);
+        ds.setData(sFileName,&scanOptions,&scanResult);
         ds.exec();
 
-        ui->widgetResult->setData(scanResult,"");
+        ui->widgetResult->setData(scanOptions, scanResult, "result.txt");
     }
 }
