@@ -43,3 +43,6 @@
 [submodule "nfd/XScanEngine"]
 	path = nfd/XScanEngine
 	url = https://github.com/horsicq/XScanEngine
+[submodule "nfd/XDisasmCore"]
+	path = nfd/XDisasmCore
+	url = https://github.com/horsicq/XDisasmCore.git
