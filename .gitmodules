@@ -46,3 +46,9 @@
 [submodule "nfd/XDisasmCore"]
 	path = nfd/XDisasmCore
 	url = https://github.com/horsicq/XDisasmCore.git
+[submodule "nfd/FormatDialogs"]
+	path = nfd/FormatDialogs
+	url = https://github.com/horsicq/FormatDialogs.git
+[submodule "nfd/XCapstone"]
+	path = nfd/XCapstone
+	url = https://github.com/horsicq/XCapstone.git
