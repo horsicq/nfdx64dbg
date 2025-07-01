@@ -52,87 +52,10 @@
 [submodule "nfd/XCapstone"]
 	path = nfd/XCapstone
 	url = https://github.com/horsicq/XCapstone.git
-[submodule "nfd/Detect-It-Easy"]
-	path = nfd/Detect-It-Easy
-	url = https://github.com/horsicq/Detect-It-Easy
-[submodule "nfd/Controls"]
-	path = nfd/Controls
-	url = https://github.com/horsicq/Controls
-[submodule "nfd/die_script"]
-	path = nfd/die_script
-	url = https://github.com/horsicq/die_script
-[submodule "nfd/die_widget"]
-	path = nfd/die_widget
-	url = https://github.com/horsicq/die_widget
-[submodule "nfd/FormatWidgets"]
-	path = nfd/FormatWidgets
-	url = https://github.com/horsicq/FormatWidgets
 [submodule "nfd/hex_templates"]
 	path = nfd/hex_templates
 	url = https://github.com/horsicq/hex_templates
 [submodule "nfd/nfd_widget"]
 	path = nfd/nfd_widget
 	url = https://github.com/horsicq/nfd_widget
-[submodule "nfd/signatures"]
-	path = nfd/signatures
-	url = https://github.com/horsicq/signatures
-[submodule "nfd/XCppfilt"]
-	path = nfd/XCppfilt
-	url = https://github.com/horsicq/XCppfilt
-[submodule "nfd/XDecompiler"]
-	path = nfd/XDecompiler
-	url = https://github.com/horsicq/XDecompiler
-[submodule "nfd/XDemangle"]
-	path = nfd/XDemangle
-	url = https://github.com/horsicq/XDemangle
-[submodule "nfd/XDemangleWidget"]
-	path = nfd/XDemangleWidget
-	url = https://github.com/horsicq/XDemangleWidget
-[submodule "nfd/XDisasmView"]
-	path = nfd/XDisasmView
-	url = https://github.com/horsicq/XDisasmView
-[submodule "nfd/XEntropyWidget"]
-	path = nfd/XEntropyWidget
-	url = https://github.com/horsicq/XEntropyWidget
-[submodule "nfd/XExtractorWidget"]
-	path = nfd/XExtractorWidget
-	url = https://github.com/horsicq/XExtractorWidget
-[submodule "nfd/XFileInfo"]
-	path = nfd/XFileInfo
-	url = https://github.com/horsicq/XFileInfo
-[submodule "nfd/XGithub"]
-	path = nfd/XGithub
-	url = https://github.com/horsicq/XGithub
-[submodule "nfd/XHashWidget"]
-	path = nfd/XHashWidget
-	url = https://github.com/horsicq/XHashWidget
-[submodule "nfd/XHexEdit"]
-	path = nfd/XHexEdit
-	url = https://github.com/horsicq/XHexEdit
-[submodule "nfd/XHexView"]
-	path = nfd/XHexView
-	url = https://github.com/horsicq/XHexView
-[submodule "nfd/XMemoryMapWidget"]
-	path = nfd/XMemoryMapWidget
-	url = https://github.com/horsicq/XMemoryMapWidget
-[submodule "nfd/XStyles"]
-	path = nfd/XStyles
-	url = https://github.com/horsicq/XStyles
-[submodule "nfd/XTranslation"]
-	path = nfd/XTranslation
-	url = https://github.com/horsicq/XTranslation
-[submodule "nfd/XUpdate"]
-	path = nfd/XUpdate
-	url = https://github.com/horsicq/XUpdate
-[submodule "nfd/XVisualizationWidget"]
-	path = nfd/XVisualizationWidget
-	url = https://github.com/horsicq/XVisualizationWidget
-[submodule "nfd/XYara"]
-	path = nfd/XYara
-	url = https://github.com/horsicq/XYara
-[submodule "nfd/yara_widget"]
-	path = nfd/yara_widget
-	url = https://github.com/horsicq/yara_widget
-[submodule "nfd/XDataConvertorWidget"]
-	path = nfd/XDataConvertorWidget
-	url = https://github.com/horsicq/XDataConvertorWidget
+
