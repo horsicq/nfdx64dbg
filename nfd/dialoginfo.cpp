@@ -27,8 +27,8 @@ DialogInfo::DialogInfo(QWidget *parent) :
 {
     ui->setupUi(this);
 
-    ui->labelPluginVersion->setText(tr("Plugin version: %1").arg(plugin_version_str));
-    ui->labelEngineVersion->setText(tr("Engine version: %1").arg(StaticScan::getEngineVersion()));
+    ui->labelPluginVersion->setText(tr("Plugin version") + QString(": %1").arg(plugin_version_str));
+    ui->labelEngineVersion->setText(tr("Engine version") + QString(": %1").arg(StaticScan::getEngineVersion()));
 }
 
 DialogInfo::~DialogInfo()
