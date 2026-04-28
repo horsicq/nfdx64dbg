@@ -1,0 +1,87 @@
+[submodule "nfd/Controls"]
+	path = nfd/Controls
+	url = https://github.com/horsicq/Controls
+[submodule "nfd/FormatDialogs"]
+	path = nfd/FormatDialogs
+	url = https://github.com/horsicq/FormatDialogs
+[submodule "nfd/FormatWidgets"]
+	path = nfd/FormatWidgets
+	url = https://github.com/horsicq/FormatWidgets
+[submodule "nfd/Formats"]
+	path = nfd/Formats
+	url = https://github.com/horsicq/Formats
+[submodule "nfd/XAboutWidget"]
+	path = nfd/XAboutWidget
+	url = https://github.com/horsicq/XAboutWidget
+[submodule "nfd/XArchive"]
+	path = nfd/XArchive
+	url = https://github.com/horsicq/XArchive
+[submodule "nfd/XCapstone"]
+	path = nfd/XCapstone
+	url = https://github.com/horsicq/XCapstone
+[submodule "nfd/XCppfilt"]
+	path = nfd/XCppfilt
+	url = https://github.com/horsicq/XCppfilt
+[submodule "nfd/XDEX"]
+	path = nfd/XDEX
+	url = https://github.com/horsicq/XDEX
+[submodule "nfd/XDemangle"]
+	path = nfd/XDemangle
+	url = https://github.com/horsicq/XDemangle
+[submodule "nfd/XDemangleWidget"]
+	path = nfd/XDemangleWidget
+	url = https://github.com/horsicq/XDemangleWidget
+[submodule "nfd/XDisasmCore"]
+	path = nfd/XDisasmCore
+	url = https://github.com/horsicq/XDisasmCore
+[submodule "nfd/XDynStructs"]
+	path = nfd/XDynStructs
+	url = https://github.com/horsicq/XDynStructs
+[submodule "nfd/XDynStructsEngine"]
+	path = nfd/XDynStructsEngine
+	url = https://github.com/horsicq/XDynStructsEngine
+[submodule "nfd/XDynStructsWidget"]
+	path = nfd/XDynStructsWidget
+	url = https://github.com/horsicq/XDynStructsWidget
+[submodule "nfd/XExtractor"]
+	path = nfd/XExtractor
+	url = https://github.com/horsicq/XExtractor
+[submodule "nfd/XFileInfo"]
+	path = nfd/XFileInfo
+	url = https://github.com/horsicq/XFileInfo
+[submodule "nfd/XInfoDB"]
+	path = nfd/XInfoDB
+	url = https://github.com/horsicq/XInfoDB
+[submodule "nfd/XOnlineTools"]
+	path = nfd/XOnlineTools
+	url = https://github.com/horsicq/XOnlineTools
+[submodule "nfd/XOptions"]
+	path = nfd/XOptions
+	url = https://github.com/horsicq/XOptions
+[submodule "nfd/XPDF"]
+	path = nfd/XPDF
+	url = https://github.com/horsicq/XPDF
+[submodule "nfd/XProcess"]
+	path = nfd/XProcess
+	url = https://github.com/horsicq/XProcess
+[submodule "nfd/XScanEngine"]
+	path = nfd/XScanEngine
+	url = https://github.com/horsicq/XScanEngine
+[submodule "nfd/XShortcuts"]
+	path = nfd/XShortcuts
+	url = https://github.com/horsicq/XShortcuts
+[submodule "nfd/XSymbolsWidget"]
+	path = nfd/XSymbolsWidget
+	url = https://github.com/horsicq/XSymbolsWidget
+[submodule "nfd/build_tools"]
+	path = nfd/build_tools
+	url = https://github.com/horsicq/build_tools
+[submodule "nfd/nfd_widget"]
+	path = nfd/nfd_widget
+	url = https://github.com/horsicq/nfd_widget
+[submodule "nfd/SpecAbstract"]
+	path = nfd/SpecAbstract
+	url = https://github.com/horsicq/SpecAbstract
+[submodule "nfd/StaticScan"]
+	path = nfd/StaticScan
+	url = https://github.com/horsicq/StaticScan
